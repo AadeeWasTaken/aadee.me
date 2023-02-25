@@ -1,7 +1,7 @@
 <script lang="ts">
-	let twitterHover = false;
-	let githubHover = false;
-	let linkedinHover = false;
+	let twitterHover: boolean = false;
+	let githubHover: boolean = false;
+	let linkedinHover: boolean = false;
 
 	let twitterHovered = () => (twitterHover = true);
 	let twitterUnhovered = () => (twitterHover = false);
@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Aadee - (Hover over the Name)</title>
+	<title>Aadee - (Hover Over The Name)</title>
 </svelte:head>
 
 <div class="h-screen w-screen font-display text-white">
