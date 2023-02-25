@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-    <title>Aadee - (Hover the Name)</title>
+	<title>Aadee - (Hover the Name)</title>
 </svelte:head>
 
 <div class="h-screen w-screen font-display text-white">
