@@ -9,6 +9,10 @@
 	let githubUnhovered = () => (githubHover = false);
 </script>
 
+<svelte:head>
+    <title>Aadee - (Hover the Name)</title>
+</svelte:head>
+
 <div class="h-screen w-screen font-display text-white">
 	<div class="h-screen flex flex-col space-y-20 justify-center items-center">
 		<div class="flex justify-center items-center">
